@@ -1,0 +1,32 @@
+.header {
+    height: 100px;
+    background-color: rgb(94, 13, 13);
+    padding: 10px;
+}
+
+.ulMenu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 22px;
+}
+
+.ulSubMenu {
+    font-size: 18px;
+    padding-left: 10px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.liMenu:hover .ulSubMenu {
+    max-height: 100vh;
+}
+
+.liMenu,
+.liSubMenu {
+    list-style-type: none;
+}
+
+.link:hover {
+    color: rgb(8, 0, 0);
+}
